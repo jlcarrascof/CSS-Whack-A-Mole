@@ -25,3 +25,13 @@
 .sb__game-over--hidden {
   display: none;
 }
+
+.wgs__mole-head {
+  transition: margin-top 0.25s; /* Establece una transición de 0.25 segundos para el cambio en margin-top */
+}
+
+.pf {
+  display: grid;
+  grid-template-rows: auto auto; /* Dos filas automáticas */
+  grid-template-columns: repeat(4, 1fr); /* Cuatro columnas iguales */
+}
